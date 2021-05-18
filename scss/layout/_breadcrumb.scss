@@ -1,0 +1,27 @@
+.breadcrumb {
+  font-size: 1.25rem;
+  padding-top: 20px;
+  @include overTab {
+    font-size: 1.25rem;
+    padding-top: 20px;
+    padding-left: 110px;
+  }
+
+  &__list {
+    display: flex;
+  }
+  &__item a {
+    text-decoration: underline;
+  }
+  &__item::after {
+    content: ">";
+    padding: 0 5px;
+  }
+  &__item:last-child::after {
+    display: none;
+  }
+}
+
+.breadcrumb__item--now {
+  text-decoration: none;
+}

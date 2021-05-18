@@ -1,0 +1,83 @@
+.archive-container {
+  @include overTab {
+    padding-left: 111px;
+    padding-right: 96px;
+    padding-bottom: 120px;
+  }
+}
+
+.news-article {
+  margin-bottom: 50px;
+  @include overTab {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  &-image {
+    @include overTab {
+      width: 254px;
+      margin-right: 32px;
+      position: relative;
+    }
+  }
+  &-info {
+    flex: 1;
+    &__title {
+      font-size: 1.75rem;
+      text-decoration: underline;
+      padding-top: 15px;
+      padding-bottom: 20px;
+    }
+    &__text {
+      font-size: 1.3rem;
+      @include overTab {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.news-category {
+  background-color: cl(primary);
+  font-size: 14px;
+  padding: 9px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pager {
+  padding-left: 20px;
+  @include overTab {
+    margin-top: 76px;
+    padding-left: 523px;
+    text-align: center;
+  }
+
+  &-list {
+    display: flex;
+  }
+}
+
+.pager-list__item {
+  margin-right: 10px;
+  @include overTab {
+    margin-right: 20px;
+  }
+
+  & a {
+    padding: 8px 16px;
+    border: 1px solid #b8860b;
+  }
+}
+
+.pager-list__item--none {
+  margin-right: 10px;
+  @include overTab {
+    margin-right: 20px;
+  }
+
+  & a {
+    padding: 8px 16px;
+    font-size: 3rem;
+  }
+}

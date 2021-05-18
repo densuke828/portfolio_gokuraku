@@ -1,0 +1,19 @@
+.thanks__text {
+  padding-top: 71px;
+  text-align: center;
+  font-size: 1.25rem;
+  & a {
+    font-size: 1rem;
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: underline;
+    margin-bottom: 113px;
+  }
+}
+
+.breadcrumb--thanks {
+  font-size: 0.875rem;
+  @include overTab {
+    font-size: 1.25rem;
+  }
+}

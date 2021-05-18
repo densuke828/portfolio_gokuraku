@@ -1,0 +1,42 @@
+.accordion {
+  margin: 0 27px 70px 27px;
+  @include overTab {
+    text-align: center;
+    width: 907px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+  }
+
+  &__title {
+    background-color: cl(white);
+    color: cl(text);
+    display: block;
+    padding: 13px 15px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    @include overTab {
+      background-color: cl(white);
+      color: cl(text);
+      display: block;
+      padding: 20px 0;
+      border: 1px solid #e5e5e5;
+    }
+  }
+  &__text {
+    background-color: #f2f2f2;
+    color: cl(text);
+    padding: 13px 15px;
+    border: 1px solid #e5e5e5;
+    @include overTab {
+      background-color: #f2f2f2;
+      color: cl(text);
+      padding: 25px 47px;
+      border: 1px solid #e5e5e5;
+    }
+  }
+}
+
+.accordion__body {
+  display: none;
+}

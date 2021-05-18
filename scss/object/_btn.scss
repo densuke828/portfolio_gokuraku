@@ -1,0 +1,11 @@
+.btn {
+  & a {
+    display: inline-block;
+    font-size: 0.875rem;
+    background-color: cl(gold);
+    padding: 12px 22px;
+    border-radius: 5px;
+    width: 9.6875rem;
+    text-align: center;
+  }
+}

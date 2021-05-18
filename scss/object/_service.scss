@@ -1,0 +1,48 @@
+.service-list {
+  @include overTab {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.service-item {
+  background-color: cl(white);
+  opacity: 0.9;
+  margin: 0 26px 30px 26px;
+  @include overTab {
+    background-color: cl(white);
+    opacity: 0.9;
+    width: 389px;
+  }
+  &--space {
+    background-color: cl(white);
+    opacity: 0.9;
+    margin: 0 26px 30px 26px;
+    @include overTab {
+      background-color: cl(white);
+      opacity: 0.9;
+      width: 389px;
+      margin: 0 30px 30px 30px;
+    }
+  }
+}
+
+.service-image {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-info {
+  color: cl(text);
+  &__title {
+    font-size: 1.75rem;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  &__text {
+    padding: 0 23px 53px 23px;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>極楽亭</title>
+    <link rel="stylesheet" href="/css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="/css/slick.css" type="text/css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header-utilities">
+                <h1 class="header-utilities__logo"><img src="./image/logo.png" alt=""></h1>
+                <nav>
+                    <ul class="header-utilities-nav">
+                        <li class="header-utilities-nav__item"><a href="#">宿泊予約</a></li>
+                        <li class="header-utilities-nav__item"><a href="#">観光情報</a></li>
+                        <li class="header-utilities-nav__item"><a href="#">よくあるご質問</a></li>
+                        <li class="header-utilities-nav__item"><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger-btn" id="ham_js">
+                    <span class="hamburger-btn__line hamburger-btn_line--1" id="ham_js"></span>
+                    <span class="hamburger-btn__line hamburger-btn_line--2" id="ham_js"></span>
+                    <span class="hamburger-btn__line hamburger-btn_line--3" id="ham_js"></span>
+                </div>
+                <!-- /.hamburger-btn -->
+            </div>
+            <!-- /.header-utilities -->
+        </div>
+        <!-- /.header__inner -->
+    </header>
+    <main class="contact">
+        <div class="top-mv--2">
+            <div class="hamburger-menu">
+                <nav>
+                    <ul class="hamburger-menu-nav">
+                        <li class="hamburger-menu-nav__item"><a href="#">宿泊予約</a></li>
+                        <li class="hamburger-menu-nav__item"><a href="#">観光情報</a></li>
+                        <li class="hamburger-menu-nav__item"><a href="#">よくある質問</a></li>
+                        <li class="hamburger-menu-nav__item"><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- /.hamburger-menu -->
+        </div>
+        <!-- top-mv--2 -->
+        <div class="breadcrumb">
+            <nav>
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item"><a href="#">ホーム</a></li>
+                    <li class="breadcrumb__item--now"><a href="#">お問い合わせ</a></li>
+                </ol>
+            </nav>
+        </div>
+        <!-- /.breadcrumb -->
+        <section class="section">
+            <div class="section__inner">
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="section-sub-title">Contact</p>
+                <form action="thanks.php" method="post" class="contact-form">
+                    <div class="contact-form__item">
+                        <label for="company">会社名</label><input id="company" type="text" name="company" placeholder="株式会社　京の極楽">
+                    </div>
+                    <div class="contact-form__item">
+                        <label for="yourname">氏名</label><input id="yourname" type="text" name="yourname" placeholder="山田　太郎">
+                    </div>
+                    <div class="contact-form__item">
+                        <label for="email">メールアドレス</label><input id="email" type="email" name="email" placeholder="example@example.com">
+                    </div>
+                    <div class="contact-form__item">
+                        <label for="tel">電話番号</label><input id="tel" type="number" name="tel" placeholder="000-1234–5678">
+                    </div>
+                    <div class="contact-form__item">
+                        <label for="comment">お問い合わせ内容</label><textarea id="comment" name="comment" placeholder="お問い合わせ内容を入力してください"></textarea>
+                    </div>
+                    <div class="policy">
+                        <p class="policy-text"><a href="#">プライバシーポリシー</a>に同意の上、送信ください。</p>
+                        <input class="checkbox" id="checkbox" type="checkbox" name="checkbox" value="check"><label for="checkbox">プライバシーポリシーに同意する</label>
+                        <div class="btn contact-btn"><a href="#">送信する</a></div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.section__inner -->
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <nav>
+                <ul class="footer-nav">
+                    <li class="footer-nav__item"><a href="#">利用規約</a></li>
+                    <li class="footer-nav__item"><a href="#">プライバシーポリシー</a></li>
+                    <li class="footer-nav__item"><a href="#">個人商取引法に基づく表記</a></li>
+                    <li class="footer-nav__item"><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <figure class="footer-logo">
+                <img src="./image/logo.png" alt="">
+            </figure>
+            <small class="footer-copy">Copyright (c) 2021 極楽亭 All Rights Reserved.</small>
+        </div>
+        <!-- /.footer__inner -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.features-item {
+  @include overTab {
+    display: flex;
+  }
+}
+
+.features-item--revers {
+  @include overTab {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.features-image {
+  @include overTab {
+    width: percentage(683/1366);
+  }
+}
+
+.features-info {
+  margin-right: 1.6875rem;
+  margin-left: 1.6875rem;
+  margin-top: 1.875rem;
+  @include overTab {
+    flex: 1;
+    margin-right: 4.4375rem;
+    margin-left: 3.4375rem;
+    margin-top: 1.875rem;
+  }
+  &__title {
+    font-size: 1.125rem;
+    color: cl(baige);
+    margin-bottom: 40px;
+    line-height: 2rem;
+    @include overTab {
+      font-size: 1.75rem;
+      line-height: 3rem;
+      margin-bottom: 45px;
+      color: cl(baige);
+    }
+  }
+  &__text {
+    font-size: 1rem;
+    margin-bottom: 60px;
+    line-height: 1.3rem;
+    @include overTab {
+      font-size: 1.125rem;
+      line-height: 1.8rem;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.features-info--revers {
+  margin-right: 1.6875rem;
+  margin-left: 1.6875rem;
+  margin-top: 1.875rem;
+  @include overTab {
+    flex: 1;
+    margin-right: 3.4375rem;
+    margin-left: 4.4375rem;
+    margin-top: 1.875rem;
+  }
+}
+
+.features-btn {
+  text-align: center;
+  margin-bottom: 62px;
+  @include overTab {
+    text-align: center;
+  }
+}

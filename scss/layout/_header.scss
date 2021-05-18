@@ -1,0 +1,34 @@
+.header {
+  background-color: cl(primary);
+  height: 94px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.header-utilities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    width: 150px;
+    padding: 19px 0 19px 30px;
+    @include overTab {
+      width: 188px;
+      padding: 12px 0 12px 30px;
+    }
+  }
+}
+
+.header-utilities-nav {
+  display: none;
+  @include overTab {
+    display: flex;
+    margin-right: 33px;
+  }
+  &__item {
+    font-size: 1.125rem;
+    margin-left: 25px;
+  }
+}

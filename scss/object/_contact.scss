@@ -1,0 +1,46 @@
+.contact-form {
+  @include overTab {
+    padding: 0 190px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    & label {
+      margin-bottom: 12px;
+    }
+    & input {
+      background-color: cl(black);
+      border: 0.5px solid #6e6e6e;
+      color: cl(white);
+      height: 50px;
+    }
+    & textarea {
+      background-color: cl(black);
+      border: 0.5px solid #6e6e6e;
+      color: cl(white);
+      height: 240px;
+      margin-bottom: 61px;
+    }
+  }
+}
+
+.policy {
+  text-align: center;
+}
+
+.policy-text {
+  margin-bottom: 33px;
+  & a {
+    text-decoration: underline;
+  }
+}
+
+.checkbox {
+  margin-bottom: 48px;
+}
+
+.contact-btn {
+  margin-bottom: 105px;
+}

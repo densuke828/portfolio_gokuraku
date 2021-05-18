@@ -1,0 +1,33 @@
+.plan-container {
+  padding-bottom: 94px;
+}
+
+.plan-list {
+  @include overTab {
+    display: flex;
+  }
+}
+
+.plan-item {
+  border-radius: 8px;
+  width: 322px;
+  margin-left: 56px;
+}
+
+.plan-info {
+  background-color: cl(white);
+  color: cl(text);
+  padding-right: 1.15625rem;
+  padding-left: 1.15625rem;
+  border-radius: 0 0 8px 8px;
+  &__title {
+    padding-top: 24px;
+    padding-bottom: 66px;
+  }
+  &__price {
+    padding-bottom: 50px;
+  }
+  &__price--red {
+    color: red;
+  }
+}

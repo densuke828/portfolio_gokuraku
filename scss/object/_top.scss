@@ -1,0 +1,35 @@
+.top-mv {
+  background-image: url(/image/top-mv_sp.png);
+  background-position: center;
+  background-size: cover;
+  height: 674px;
+  margin-top: 96px;
+  text-align: center;
+  @include overTab {
+    background-image: url(/image/top-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 674px;
+    margin-top: 96px;
+    text-align: center;
+  }
+}
+
+.top-text {
+  font-size: 2.1875rem;
+  line-height: 4rem;
+  padding-top: 283px;
+  @include overTab {
+    font-size: 3.125rem;
+    line-height: 5rem;
+    padding-top: 200px;
+  }
+}
+
+.top-mv--2 {
+  background-image: url(/image/street-409993_1920.png);
+  background-position: center;
+  background-size: cover;
+  height: 296px;
+  margin-top: 96px;
+}
