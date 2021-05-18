@@ -322,7 +322,7 @@ img {
 }
 
 .top-mv {
-  background-image: url(/image/top-mv_sp.png);
+  background-image: url(https://densuke828.github.io/portfolio_gokuraku/image/top-mv_sp.png);
   background-position: center;
   background-size: cover;
   height: 674px;
@@ -332,7 +332,7 @@ img {
 
 @media print, screen and (min-width: 376px) {
   .top-mv {
-    background-image: url(/image/top-bg.png);
+    background-image: url(https://densuke828.github.io/portfolio_gokuraku/image/top-bg.png);
     background-position: center;
     background-size: cover;
     height: 674px;
@@ -356,7 +356,7 @@ img {
 }
 
 .top-mv--2 {
-  background-image: url(/image/street-409993_1920.png);
+  background-image: url(https://densuke828.github.io/portfolio_gokuraku/image/street-409993_1920.png);
   background-position: center;
   background-size: cover;
   height: 296px;
